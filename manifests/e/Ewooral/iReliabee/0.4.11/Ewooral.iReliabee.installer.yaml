@@ -1,0 +1,20 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Ewooral.iReliabee
+PackageVersion: 0.4.11
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+AppsAndFeaturesEntries:
+- DisplayName: iReliabee
+  ProductCode: iReliabee
+Installers:
+- Architecture: x64
+  InstallerUrl: https://cdn.ewooral.com/interview-coach/releases/0.4.11/iReliabee_0.4.11_x64-setup.exe
+  InstallerSha256: 713575439489AB2B53593989E755557DF66DA6EE470CEE8CD5C948424A05E01C
+ManifestType: installer
+ManifestVersion: 1.9.0
